@@ -115,11 +115,16 @@
             color: #000;
             font-size: 1.2em;
             padding: 18px;
+            transition: all 0.3s;
         }
         esp-web-install-button::part(button):hover {
-            background: #FFD700;
+            color: #FFD700;
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.7);
+            box-shadow: 0 8px 25px rgba(91, 157, 213, 0.7);
+        }
+        esp-web-install-button::part(button):active {
+            transform: translateY(2px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
         }
         esp-web-install-button[active]::part(button) {
             background: #FFD700;
