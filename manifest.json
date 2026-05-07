@@ -8,16 +8,8 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "bootloader.bin",
+          "path": "waveshare_full.bin",
           "offset": 0
-        },
-        {
-          "path": "partitions.bin",
-          "offset": 32768
-        },
-        {
-          "path": "waveshare_app.bin",
-          "offset": 65536
         }
       ]
     }
